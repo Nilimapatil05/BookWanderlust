@@ -54,6 +54,7 @@ router.use("/mapbox", (req, res) => {
     changeOrigin: true,
   });
 });
+
 module.exports = router;
 //index route
 // router.get("/", wrapAsync(ListingControllers.index));
